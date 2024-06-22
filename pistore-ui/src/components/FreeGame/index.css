@@ -1,0 +1,38 @@
+.game-item-free {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Đảm bảo căn giữa theo cả chiều dọc */
+}
+
+.game-item-free img {
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 600px;
+    height: 350px;
+    object-fit: cover; /* Đảm bảo hình ảnh không bị biến đổi tỉ lệ và nằm gọn trong thẻ div */
+}
+.game-item-free img:hover {
+    transition: width 0.3s, height 0.3s; /* Hiệu ứng transition */
+}
+.div-container {
+    height: 500px;
+    background-color: #aec3b0; /* Mã màu của màu nền AEC3B0 */
+    border-radius: 10px;
+    margin: 10px;
+    padding-top: 15px;
+}
+.styleH3 {
+    width: 600px;
+    border-radius: 10px;
+    background-color: #598392 !important;
+    color: #01161e;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+.btn-custom {
+    background-color: #598392 !important;
+    font-weight: bold !important;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 10); /* Thêm hiệu ứng box shadow */
+    padding: 10px;
+}

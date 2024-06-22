@@ -1,0 +1,45 @@
+/* GameCarousel.css */
+.carousel {
+    width: 1000px;
+    height: 525px;
+}
+.carousel-item img {
+    border-radius: 3px;
+    width: 975px;
+    height: 525px;
+    object-fit: cover; /* Đảm bảo hình ảnh bị căn chỉnh cho phù hợp với kích thước đã đặt */
+}
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.object-button {
+    width: 200px; /* Độ rộng của object */
+    height: 60px; /* Độ cao của object */
+    margin-bottom: 33px;
+    padding: 10px 20px;
+    background-color: transparent !important; /* Màu nền của object */
+    border: none !important;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white !important; /* Màu chữ */
+    font-size: 14px !important; /* Cỡ chữ */
+    transition: background-color 3s ease; /* Hiệu ứng chuyển đổi màu khi hover */
+}
+@keyframes colorChange {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+.object-button.active {
+    background: linear-gradient(90deg, black, gray);
+    background-size: 200% 100%;
+    animation: colorChange 3s infinite;
+}
+.slideAdsSideBar {
+    width: 300px !important;
+}

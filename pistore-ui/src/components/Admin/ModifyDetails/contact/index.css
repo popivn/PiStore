@@ -1,0 +1,78 @@
+.select-style select {
+    border: 1px solid #ccc;
+    background-color: #000;
+    color: #fff;
+    border-radius: 0 !important;
+    padding: 8px;
+    width: 100%;
+}
+
+.select-style option {
+    background-color: #000;
+    color: #fff;
+    border-radius: 0 !important;
+}
+.select-style {
+    font-size: 14px;
+    background-color: #333;
+    color: wheat;
+    width: 250px;
+    text-align: left;
+}
+/* index.css */
+.contact-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.contact-table th {
+    font-size: 14px;
+    background-color: #493939;
+    color: #c4bdbd;
+    box-shadow: #333;
+    border: 1px solid #200707;
+}
+.contact-table td {
+    padding: 8px;
+    border: 1px solid #200707;
+}
+
+.contact-table tbody tr:nth-child(even) {
+    background-color: #c4bdbd;
+}
+.contact-table tbody tr:nth-child(odd) {
+    background-color: #e0c4c4;
+}
+.input-style-admin {
+    background-color: wheat;
+    width: 250px;
+    margin: 20px 0px 0px 0px;
+    height: 30px;
+}
+.contact-table {
+    width: 100%;
+}
+
+.contact-table td {
+    max-width: 200px; /* Đặt chiều rộng tối đa của ô td */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Thêm dấu "..." khi text quá dài */
+    white-space: nowrap; /* Ngăn text xuống dòng */
+}
+.styleP-Add-Admin {
+    width: 150px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #333;
+    color: #c4bdbd;
+    margin: 6px 0px 0px 0px;
+}
+.styleP-Save-Admin {
+    width: 100px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #493939;
+    color: #c4bdbd;
+    margin: 6px 0px 0px 0px;
+}

@@ -1,0 +1,40 @@
+.SecondHeader {
+    background-color: #598392;
+    padding: 0px;
+    margin: 0px;
+    height: 60px;
+}
+.navbar-brand img {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.GamingStore {
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.text-h2 {
+    text-decoration: none;
+    outline: none;
+    margin-left: 10px; /* Khoảng cách bên trái là 10px */
+    font-size: 24px !important;
+    font-weight: bold !important;
+    color: var(--primary-text-color);
+    background-color: transparent; /* Màu nền ban đầu là trong suốt */
+    border: 1px solid transparent; /* Viền ban đầu là trong suốt */
+    transition: border-color 0.3s ease, background-color 0.3s ease; /* Hiệu ứng chuyển tiếp cho viền và màu nền */
+}
+.text-h2:hover {
+    color: #aec3b0 !important; /* Thay đổi màu chữ khi hover */
+}
+/* Thiết lập các option trong dropdown menu nằm chiều dọc và có nền màu đen */
+.LogoutIcon {
+    margin-left: 20px;
+}
+.LogoutIcon :hover {
+    color: #aec3b0 !important; /* Thay đổi màu chữ khi hover */
+}
+#nav-account-menu .a {
+    width: 50px;
+}

@@ -1,0 +1,39 @@
+.btn-primaryColor {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Định dạng của shadow */
+    width: 75px !important;
+    height: 25px !important;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold; /* Làm chữ in đậm */
+    background-color: #598392;
+}
+
+.btn-secondaryColor {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Định dạng của shadow */
+    width: 75px;
+    height: 25px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold; /* Làm chữ in đậm */
+    background-color: #aec3b0;
+}
+.StyleH6-recentlyAdded {
+    color: dimgray;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.styleP-recentlyAdded {
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+.StyleH5-recentlyAdded {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 200px; /* Đặt giá trị max-width phù hợp */
+}

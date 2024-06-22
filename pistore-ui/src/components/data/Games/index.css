@@ -1,0 +1,76 @@
+/* CSS for game item container */
+.game-item {
+    border-radius: 5px;
+    background-color: rgba(174, 195, 176, 0.7); /* Màu nền mờ */
+    width: 208.333px; /* Chiều rộng của phần tử game */
+    margin-right: 32px; /* Khoảng cách bên phải của mỗi phần tử game */
+    display: flex; /* Sử dụng flexbox để căn giữa nội dung */
+    flex-direction: column; /* Dạng cột */
+    justify-content: center; /* Canh giữa theo chiều dọc */
+    align-items: center; /* Canh giữa theo chiều ngang */
+    border: 1px solid #ccc; /* Viền */
+    padding: 20px; /* Khoảng cách bên trong */
+    margin-bottom: 20px; /* Khoảng cách dưới */
+    transition: transform 0.3s ease; /* Hiệu ứng transition */
+    height: 350px;
+    padding: 15px;
+}
+
+.game-item:hover {
+    /* Hiệu ứng phóng to khi hover */
+    transform: scale(1.05);
+}
+/* CSS for game item image */
+.game-item img {
+    border-radius: 5px;
+    width: 180px; /* Độ rộng cố định của hình ảnh */
+    height: 250px; /* Độ cao cố định của hình ảnh */
+    object-fit: cover; /* Đảm bảo hình ảnh không bị biến dạng */
+}
+.game-item h3 {
+    margin-top: 10px; /* Khoảng cách từ tiêu đề đến hình ảnh */
+}
+
+/* CSS for game item price */
+.game-item p {
+    margin-top: 5px; /* Khoảng cách từ giá đến tiêu đề */
+}
+.show-text {
+    color: white;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.form-select {
+    width: 100px !important;
+    background-color: transparent !important;
+    color: white !important;
+    font-size: 14px;
+    border: 1px solid white;
+}
+
+.form-select:hover {
+    background-color: transparent !important;
+}
+.form-select option {
+    border-radius: 0px;
+    background: #01161e !important;
+    color: wheat;
+}
+.styleH4-gameList {
+    font-weight: bold;
+    color: rgb(53, 50, 50);
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+}
+.linkDecoration {
+    text-decoration: none;
+}
+.styleH6-gameList {
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: bold;
+    color: #525151;
+    text-transform: uppercase;
+}

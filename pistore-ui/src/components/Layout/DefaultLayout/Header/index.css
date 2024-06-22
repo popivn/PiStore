@@ -1,0 +1,168 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333; /* Màu nền của header */
+    color: #fff; /* Màu chữ của header */
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation ul li {
+    display: inline;
+    margin-right: 20px;
+}
+.navigation ul li a {
+    text-decoration: none;
+    color: #fff; /* Màu chữ của menu */
+}
+.navbar-brand img {
+    border-radius: 9px;
+    width: 56px;
+    height: 56px;
+}
+.search-layout {
+    margin-bottom: 5px;
+    border-radius: 20px;
+    background-color: #aec3b0;
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.search-button-container {
+    margin-right: 8px;
+}
+
+.search-button {
+    background-color: #aec3b0;
+    font-size: 30px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.search-icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+
+.search-input-container {
+    flex: 1;
+}
+.search-input {
+    background-color: #aec3b0;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.text-h3.nav-link {
+    font-size: 24px;
+    font-weight: bold;
+}
+.header-container {
+    position: relative;
+}
+
+.header-container .dropdown-toggle {
+    position: relative;
+    z-index: 9999; /* Đảm bảo dropdown menu hiển thị trên đỉnh */
+}
+.dropdown--account .epic-wf-simple-menu {
+    position: absolute;
+    top: calc(100% + 5px);
+    right: 0;
+    width: 200px; /* Điều chỉnh chiều rộng của dropdown menu */
+    background-color: #000; /* Đặt màu nền cho dropdown menu */
+    border-radius: 5px; /* Đặt đường viền cong cho dropdown menu */
+    padding: 10px 0; /* Tạo khoảng cách giữa các option */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Đặt hiệu ứng bóng cho dropdown menu */
+    z-index: 1000; /* Đặt chỉ số z cao để menu hiển thị trên các phần tử khác */
+}
+
+/* Thiết lập style cho mỗi option trong dropdown menu */
+.dropdown--account .epic-wf-simple-menu a {
+    display: block;
+    color: #fff; /* Màu chữ của option */
+    text-decoration: none;
+    padding: 8px 20px; /* Tạo khoảng cách giữa các cạnh của option */
+    transition: background-color 0.3s ease; /* Hiệu ứng chuyển đổi màu nền khi hover */
+}
+.epic-wf-simple-menu {
+    z-index: 0;
+}
+/* Thiết lập style cho mỗi option khi hover */
+.dropdown--account .epic-wf-simple-menu a:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Màu nền của option khi hover */
+}
+.epic-wf-simple-menu a span {
+    margin-left: 3px; /* Khoảng cách giữa icon và chữ */
+}
+.accountMenu-Button {
+    margin-left: 30px;
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50% !important;
+    font-size: 20px;
+    background-color: #333; /* Màu nền của nút */
+    color: #fff !important; /* Màu chữ của nút */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logout-button {
+    margin-left: 21px;
+    padding: auto;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    color: inherit; /* Đảm bảo màu sắc của văn bản giữ nguyên */
+}
+.logout-button .icon {
+    margin-right: 3px; /* Khoảng cách giữa icon và văn bản */
+    color: white;
+    font-size: 20px;
+}
+#navbarNav {
+    margin: 30px;
+}
+.stylePHeader {
+    text-decoration: none;
+    color: dimgray;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+.stylePHeader:hover {
+    color: #aec3b0;
+}
+.searchContainer {
+    position: relative; /* Đảm bảo vị trí tương đối */
+}
+
+.searchGame-Display {
+    border-radius: 3px;
+    position: absolute; /* Đảm bảo vị trí tuyệt đối */
+    top: 100%; /* Đặt vị trí dưới phần tử cha */
+    left: 0; /* Đặt vị trí bên trái */
+    background-color: #333;
+    margin-top: 5px;
+    width: 403px;
+}
+.game-thumbnail {
+    width: 49.893px; /* Đặt chiều rộng là 50px */
+    height: 71.268px; /* Đặt chiều cao là 30px */
+    object-fit: cover;
+    margin-right: 10px;
+}

@@ -1,0 +1,72 @@
+.custom-background-container {
+    position: relative;
+    background-image: url('../../assets/images/logo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.custom-background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(7, 51, 77, 0.95); /* Màu sắc đục và độ trong suốt của overlay */
+}
+
+.styleH1-contact {
+    margin: 15px;
+    color: rgb(223, 219, 219);
+    font-size: 48px;
+    font-weight: bold;
+    position: relative; /* Đặt phần tử là tương đối để sử dụng z-index */
+    z-index: 1; /* Đảm bảo chữ nằm trên hình ảnh nền và lớp phủ */
+}
+.container-contactus {
+    margin: 200px;
+}
+.styleH6-contactus {
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: bold;
+    color: #bbb3b3;
+    text-transform: uppercase;
+}
+.formContactus {
+    margin-top: 50px;
+}
+.formContactus .form-group .form-control {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #bbb3b3;
+    color: #bbb3b3;
+    font-size: 18px;
+}
+.formContactus .form-group {
+    color: rgb(173, 201, 201);
+    font-weight: bold;
+    text-align: left;
+    margin: 10px 250px 0px 250px;
+}
+.btn-contactus {
+    background-color: #aec3b0;
+    border-radius: 3px;
+    margin-top: 10px;
+    width: 90px;
+    height: 35px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.styleH4-contactus {
+    color: aliceblue;
+    font-size: 36px;
+    font-weight: bold;
+    background-color: transparent !important;
+    float: left !important;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.styleH4-contactus:hover {
+    color: #bbb3b3;
+}

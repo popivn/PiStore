@@ -1,0 +1,21 @@
+.MGameInfor {
+    margin-bottom: 100px;
+}
+.styleP-SaveGame-Admin {
+    text-align: center;
+    width: 100px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #493939;
+    color: #c4bdbd;
+    margin: 6px 0px 0px 630px;
+}
+/* styles.css */
+.DateTimeInput {
+    display: flex;
+    align-items: center;
+}
+
+.input-spacing {
+    margin-left: 10px;
+}

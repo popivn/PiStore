@@ -1,0 +1,46 @@
+.styleH4 {
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+}
+.styleH5 {
+    font-size: 14px;
+    color: aliceblue;
+}
+.div-Auth {
+    border-radius: 10px;
+    width: 445px;
+    height: 635px;
+    margin: 100px;
+    padding: 50px;
+    background-color: #598392;
+}
+.input-Auth {
+    margin: 10px;
+    width: 380px;
+    height: 60px;
+    background-color: #aec3b0 !important;
+    box-shadow: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+}
+.btn-continue-Auth {
+    background-color: #124559;
+    width: 380px;
+    height: 60px;
+    color: white;
+    font-size: 14px;
+    box-shadow: none;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.imageLogo {
+    border-radius: 10px;
+    width: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+}

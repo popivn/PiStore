@@ -1,0 +1,45 @@
+.styleP-Admin {
+    background-color: #124559;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 10px 10px 0px 10px;
+    text-align: center;
+    user-select: none;
+}
+.imageLogo-Admin {
+    border-radius: 5px;
+    width: 225px;
+    height: 200px;
+    margin-left: 10px;
+}
+.imageLogo-Admin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.styleP-Admin:hover {
+    color: #598392;
+}
+.styleP2-Admin {
+    background-color: #224b5c;
+    width: 200px;
+    font-size: 18px;
+    color: rgb(211, 208, 208);
+    border-radius: 3px;
+    margin: 3px auto 0;
+    text-align: center;
+}
+.styleP2-Admin:hover {
+    color: #598392;
+}
+.styleDiv-AdminSideBar {
+    background-color: #598392;
+}
+.styleDiv-Admin {
+    background-color: #aec3b0;
+}
+.styleBody-Admin {
+    min-height: 100vh;
+}

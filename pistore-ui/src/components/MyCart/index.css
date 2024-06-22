@@ -1,0 +1,25 @@
+.cartTable {
+    background-color: #598392;
+    border-radius: 5px;
+    height: 100%;
+}
+
+.cartTable thead th {
+    font-size: 20px;
+    font-weight: bold;
+    color: #01161e;
+    background-color: #124559;
+}
+
+.cartTable tbody td {
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+.Xicon {
+    width: 27px;
+    height: 35 px;
+    border-radius: 50%;
+    background-color: #124559;
+    color: aliceblue;
+}

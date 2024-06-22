@@ -1,0 +1,122 @@
+.styleH1 {
+    margin: 15px;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.image-slider-sidebar img {
+    border-radius: 2px;
+    margin: 7px;
+    width: 100px;
+    height: 50px;
+    object-fit: cover;
+}
+.genres-div-detail {
+    border-left: 3px solid aliceblue;
+    padding: 10px;
+}
+.div-FollowUs {
+    margin-bottom: 10px;
+    background-color: #aec3b0;
+    height: 70px;
+    width: 100%;
+    border-radius: 5px;
+}
+.followusIcon {
+    margin-top: 20px;
+}
+
+.followusIcon svg {
+    color: black; /* Đặt màu của icon thành đen */
+    font-size: 24px;
+    margin: 5px;
+}
+
+.followusIcon:hover svg {
+    color: rgb(65, 65, 72); /* Thay đổi màu của icon khi di chuột qua */
+    cursor: pointer; /* Thay đổi con trỏ khi di chuột qua */
+}
+.systemRequirement {
+    border-radius: 3px;
+    margin-top: 10px;
+    background-color: #aec3b0;
+    height: 745px;
+    margin-bottom: 50px;
+}
+.systemRequirementHeader .btn {
+    margin-top: 10px;
+    background-color: transparent !important;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 12px;
+    border: none;
+    outline: none;
+    position: relative;
+}
+
+.systemRequirementHeader .active::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: rgb(45, 45, 56);
+}
+.GameDetailSideBar-image {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin: 0px;
+    padding: 0px;
+}
+.styleH6 {
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: bold;
+    color: #525151;
+    text-transform: uppercase;
+}
+.styleH6:hover {
+    color: #aec3b0;
+}
+.gameDetailSideBar {
+    margin-left: 12px !important;
+}
+.gameDetailBtn1 {
+    background-color: #aec3b0;
+    border-radius: 5px;
+    width: 300px;
+    height: 70px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.gameDetailBtn2 {
+    background-color: transparent !important;
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: none;
+    color: white;
+}
+.gameDetailIcon {
+    margin-right: 5px;
+}
+.styleP {
+    font-size: 16px;
+    color: aliceblue;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.custom-swal-bg {
+    background-color: #31363f !important; /* Màu xám */
+    color: #eeeeee;
+}
+.custom-swal-button {
+    background-color: #76abae !important; /* Màu trắng */
+    color: #000000; /* Màu văn bản */
+}

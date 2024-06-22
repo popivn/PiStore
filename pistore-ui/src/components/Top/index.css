@@ -1,0 +1,37 @@
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.game-image {
+    width: 60px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.game-title {
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+.game-top {
+    width: 250px;
+    height: 90px;
+    transition: width 0.3s, height 0.3s; /* Hiệu ứng transition */
+}
+
+.game-top:hover {
+    width: 230px;
+    height: 90px;
+}
+
+.div-topSeller {
+    width: 20%;
+    background-color: #aec3b0;
+    margin-bottom: 25px;
+}
+.div-Top {
+    background-color: #333;
+}

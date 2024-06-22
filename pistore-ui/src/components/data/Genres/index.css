@@ -1,0 +1,49 @@
+.genre-item {
+    width: 255px;
+    height: 180px;
+    margin: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #124559; /* Màu nền của genre item */
+    border: 1px solid #ccc; /* Viền */
+    border-radius: 5px; /* Bo tròn các góc */
+    color: white;
+    border-radius: 10px;
+}
+
+.genre-item img {
+    border-radius: 10px;
+    width: 100%; /* Chiếm toàn bộ chiều rộng của genre item */
+    height: auto; /* Đảm bảo tỷ lệ khung hình được giữ nguyên */
+    object-fit: cover; /* Đảm bảo hình ảnh không bị biến dạng */
+    width: 220px;
+    height: 110px;
+}
+
+.genre-item h3 {
+    margin-top: 10px; /* Khoảng cách từ tiêu đề đến hình ảnh */
+}
+.genres-div {
+    margin-top: 10px !important;
+    background-color: #598392;
+    width: 300px !important;
+    height: 225x;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+}
+.hold-genres {
+    border-radius: 10px;
+    margin: 15px;
+    background-color: transparent !important;
+}
+.styleH2 {
+    border-radius: 10px;
+    background-color: #598392;
+    color: #01161e;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}

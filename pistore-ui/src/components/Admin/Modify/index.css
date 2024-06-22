@@ -1,0 +1,46 @@
+.table-container-admin {
+    overflow-x: auto;
+}
+
+.table-container-admin table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* index.css */
+.table-container-admin th {
+    text-align: center;
+    background-color: #01161e;
+    color: #8f8c8c;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.table-container-admin td {
+    text-align: center;
+    padding: 8px;
+}
+
+/* index.css */
+.table-container-admin tbody tr:nth-child(even) td {
+    background-color: #9fbcc9; /* Màu cho các hàng chẵn */
+}
+
+.table-container-admin tbody tr:nth-child(odd) td {
+    background-color: #5d6d74; /* Màu cho các hàng lẻ */
+}
+
+.table-container-admin img {
+    width: 100px;
+}
+.link-and-span-container {
+    display: flex;
+    align-items: center;
+}
+
+.link-and-span-container .delete-action {
+    font-weight: bold;
+    margin-left: 3px;
+    border-left: 1px solid black; /* Troke ở giữa */
+    padding-left: 3px; /* Khoảng cách giữa stroke và chữ "Delete" */
+}

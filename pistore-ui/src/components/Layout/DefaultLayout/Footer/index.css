@@ -1,0 +1,17 @@
+.footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    flex-shrink: 0; /* Ngăn footer bị co lại khi nội dung ít */
+    margin-top: auto; /* Đẩy footer xuống dưới cùng của trang */
+    padding: 20px 0; /* Tùy chỉnh padding của footer */
+    background-color: #343a40; /* Màu nền của footer */
+    color: #fff; /* Màu chữ của footer */
+}
+.containerBody {
+    min-height: 78vh;
+}
+.footerContent {
+    margin-left: 10px;
+}
